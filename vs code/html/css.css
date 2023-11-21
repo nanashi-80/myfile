@@ -1,0 +1,32 @@
+  
+  body{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(33, 138, 33);
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+ .me{
+    display: flex;
+            justify-content: center;
+            background-color: #555;
+            padding: 0.5em;
+ }
+ div{
+    padding: 2em;
+    text-align: center;
+}
+footer {
+    background-color: rgb(33, 138, 33);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

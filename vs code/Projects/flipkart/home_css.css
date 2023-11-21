@@ -1,0 +1,183 @@
+body{
+    background-color: #f1f1f1;
+}
+.search{
+    position: sticky;
+    top: 0;
+    width: 99%;
+    height: 80px;
+   background-color: white;
+    display: flex;
+    flex-direction: row;
+    overflow:hidden;
+}
+.search>img{
+    position: inherit;
+    left: 40px;
+    width: 120px;
+    height: 70px;
+}
+.search>input{
+    background-color: azure;
+    margin: 15px 0 0 100px;
+    height: 40px;
+    width: 900px;
+    position: inherit;
+    left: 100px;
+    border-radius: 10px;
+}
+.search>button{
+    font-size: x-large;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    size: 30px;
+}
+.bs{
+    position: relative;
+    left: 100px;
+}
+.login{
+    position: relative;
+    left: 200px;
+}
+.cart{position: relative;
+    left: 350px;
+}
+.category{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 95px;
+    width: 98%;
+    height: 180px;
+    margin: 10px ;
+    margin-right: 15px;
+   background-color: white;
+}
+#grocery{
+    position: relative;
+    left: 100px;
+    width: 75px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#mobile{
+    position: relative;
+    left: 200px;
+    width: 75px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#fashion{
+    position: relative;
+    left: 300px;
+    width: 75px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+#electronic{
+    position: relative;
+    left: 400px;
+    width: 75px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+a>img{
+    width: 90px;
+    height: 90px;
+}
+#fur{
+     position: relative;
+    left: 500px;
+    width: 75px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+#app{
+    position: relative;
+    left: 600px;
+    width: 75px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+#travel{
+    position: relative;
+    left: 700px;
+    width: 75px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+#bue{
+    position: relative;
+    left: 800px;
+    width: 75px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+#two{
+    position: relative;
+    left: 900px;
+    width: 75px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+a:visited{
+    color: black;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+.trending{
+    width:98% ;
+    height: 300px;
+    background-color: brown;
+    position: absolute;
+    top: 290px;
+    margin: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+#post1>a>img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: inherit;
+}
+#post2>a>img{
+    position: relative;
+    padding: inherit;
+    width: 100%;
+    height: 100%;
+}
+#post3>a>img{
+    position: relative;
+    padding: inherit;
+    width: 100%;
+    height: 100%;
+}
+@keyframes motion {
+        from{
+            
+        }
+}
+
+/* .best{
+    width: 98%;
+    height: ;
+
+} */

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            width: 98%;
+            height: 500px;
+            background-color: black;
+            align-items: center;
+
+        }
+       .main_1{
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        border-radius: 10px solid black;
+        transition: all 2s;
+       }
+       .main_1:hover{
+        /* transform: rotate(120deg); */
+        /* transform: scale(2); */
+        /* transform: skew(45deg); */
+        /* transform: rotate(36deg);
+        transform: translatey(100px) */
+        transform:translate3d(1,1,1 120deg) ;
+        transform:rotateX(120deg);
+       }
+    </style>
+</head>
+<body>
+    <div class="box">
+   <div class="main_1">
+    <h2>Heading</h2>
+   </div>
+   </div>
+</body>
+</html>

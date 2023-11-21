@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(147, 135, 120);
+}
+
+
+.hori1{
+    padding:0 3px 0 4px;
+    width:98%;
+    height: 15px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px ;
+    position: absolute;
+    top: 250px;
+}
+.hori2{
+    padding:0 3px 0 4px;
+    width:98%;
+    height: 15px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px ;
+    position: absolute;
+    top: 500px;
+}
+.ver1{
+    padding:3px 0 3px 0;
+    width:10px;
+    height:680px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px ;
+    position: absolute;
+    left: 33.3%;
+}
+.ver2{
+    padding:3px 0 3px 0;
+    width:10px;
+    height:680px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px ;
+    position: absolute;
+    top: 3px;
+    left: 66%;
+    
+}
+button{
+        padding: 30px;
+        margin: 0 6px;
+        border: 4px black solid;
+        border-radius: 10px;
+}
+.op1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.op2{
+    position: absolute;
+    top: 30px;
+    left: 44%;
+}
+.op3{
+    position: absolute;
+    top: 30px;
+    left: 78%;
+}
+.op4{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+.op5{
+    position: absolute;
+    top: 300px;
+    left: 44%;
+}
+.op6{
+    position: absolute;
+    top: 300px;
+    left: 78%;
+}
+.op7{
+    position: absolute;
+    top: 600px;
+    left: 20px;
+}
+.op8{
+    position: absolute;
+    top: 600px;
+    left: 44%;
+}
+.op9{
+    position: absolute;
+    top: 600px;
+    left: 78%;
+}
+.cl{
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}

@@ -1,0 +1,30 @@
+.center{
+    text-align: center;
+}
+.bg{
+    background-color: blue;
+}
+.auto{
+    margin: auto;
+}
+.mw{
+    max-width: 10vw;
+}
+.button{
+    padding: 30px;
+    margin: 0 6px;
+    border: 4px black solid;
+    border-radius: 10px;
+}
+.main1{
+    margin: 6px;
+}
+.main input{
+   
+    padding: 20px 85px;
+    margin: 0 ;
+    border: 4px black solid;
+    border-radius: 10px;
+
+
+}
