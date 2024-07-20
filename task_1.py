@@ -18,7 +18,7 @@ def update():
     name = input("Enter name   -")
     id =   int(input("Enter ID -"))
     salary = int(input("Enter salary -"))
-    script = f"SELECT id,name,salary FROM employee_data WHERE id = {id}"
+    script= f"UPDATE employee_data SET id={id},name='{name}',salary={salary} WHERE id={id}"
     cursor = c.cursor()
     cursor.execute(script)
     c.commit()
