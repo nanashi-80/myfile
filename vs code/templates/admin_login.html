@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #5baea9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-card {
+            background-color: #e1f5fe;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+        }
+        .login-card h3 {
+            margin-bottom: 20px;
+        }
+        .form-control:focus {
+            border-color: #81d4fa;
+            box-shadow: none;
+        }
+        .btn-primary {
+            background-color: #81d4fa;
+            border-color: #81d4fa;
+        }
+        .btn-primary:hover {
+            background-color: #4fc3f7;
+            border-color: #4fc3f7;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <h3 class="text-center">Admin Login</h3>
+        <form>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" required>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+            <p class="text-center mt-3">Don't have an account? <a href="#">Sign up</a></p>
+        </form>
+    </div>
+    <script src="/static/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

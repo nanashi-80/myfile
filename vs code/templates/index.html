@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME Page</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <style>
+          
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar-brand img{
+            width: 100px;
+            height: 100px;
+        }
+        #navbarScroll{
+        margin:auto ;
+        padding: auto;
+        }
+        body{
+        background-image: radial-gradient( circle 1305px at -23% -5.8%,  rgba(62,209,218,1) 0%, rgba(0,105,148,1) 59% );}
+
+        .base{
+        margin-top: 30px;
+        }
+        body {
+            background-color: #e0f7fa;
+        }
+        .navbar {
+            background-color: #81d4fa;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        .card {
+            background-color: #e1f5fe;
+        }
+        .footer {
+            background-color: #81d4fa;
+            color: white;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- NAV BAR -->
+    <section>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{{ url_for('index') }}">
+                    <img src="/static/construction-logo,-building-construction-logo-design-template-c3be332686fc33ade025274ae43a6047_screen.jpg" alt="CLIMS OFFICIAL Logo" > CLIMS OFFICIAL </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="login.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Login
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="{{ url_for('admin') }}">Admin</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for('contractor') }}">Contractor</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="{{ url_for('worker') }}">Worker</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- NAV END -->
+
+    <!-- BASE BODY -->
+    <section class="base py-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 1000px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/static/5124111.jpg" class="img-fluid rounded-start" alt="Safety First Image" style="width: 250px;">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Safety First</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque obcaecati doloribus consequatur explicabo assumenda cupiditate nesciunt culpa soluta laborum dolorum veritatis sunt dicta ipsam saepe cumque exercitationem magnam, quod laboriosam.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Please be careful</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 1000px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/static/5138438.jpg" class="img-fluid rounded-start" alt="Work Smart Image" style="width: 300px;">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Work Smart, Not Hard</h3>
+                                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit et voluptas quis, voluptatum a commodi nihil quo illo placeat, veritatis ducimus repellat blanditiis recusandae exercitationem delectus sint vel in nobis!</p>
+                                        <p class="card-text"><small class="text-body-secondary">Stay Happy</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 1000px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/static/5197057.jpg" class="img-fluid rounded-start" alt="Follow Plan Image" style="width: 250px;">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Follow Plan</h3>
+                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, dolores quae hic nihil suscipit facilis ipsum dicta fugiat quam unde dolore saepe nisi, provident vitae, ducimus laudantium rem odit libero?</p>
+                                        <p class="card-text"><small class="text-body-secondary">Stay Safe</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2024 CLIMS OFFICIAL. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="/static/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
